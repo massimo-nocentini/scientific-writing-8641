@@ -34,50 +34,59 @@
 
 \begin{document}
 
-    \title{\rmfamily\normalfont\spacedallcaps{On recurrences unfolding}}
+    \title{\rmfamily\normalfont\spacedallcaps{Scientific Writing -- $8641$}}
     \author{\spacedlowsmallcaps{Massimo Nocentini}}
     \date{\today} 
     
     \maketitle
     
     \begin{abstract}
-        \noindent In this document we show an implementation of a prototype 
-        using the \emph{Python} language, on top of \emph{SymPy} module.
-        It allows us to \emph{unfold} recurrence relations, where there
-        is \emph{one} free variable. We show some applications to recurrences
-        describing average numbers of Quicksort's checks and swaps; moreover, 
-        possibly new characterizations for Fibonacci numbers are given.
+        \noindent In this report we collect our work during classes of \emph{Scientific Writing -- 8641}
+        course, taught in Florence during Winter 2016.
     \end{abstract}
        
     \tableofcontents
     
-    \chapter{Quicksort recurrences}
 
-    \section{On the average number of checks}
-    Let $c_{n}$ be the number of checks occuring on the computation
-    of Quicksort algorithm on a vector of length $n$. After some manipulation
-    starting from a general relation over $c_{n}$, the following
-    recurrence relation can be derived:
-    \begin{displaymath}
-        \frac{c_{n}}{n + 1} = \frac{2}{n + 1} + \frac{1}{n} c_{n - 1}
-    \end{displaymath}
-    here is a terms cache:
-    \begin{center}
-    \begin{displaymath}
-        \left \{ \frac{1}{n} c_{n - 1} : \frac{c_{n - 2}}{n - 1} + \frac{2}{n}, \quad \frac{c_{n - 4}}{n - 3} : \frac{2}{n - 3} + \frac{c_{n - 5}}{n - 4}, \quad \frac{c_{n - 3}}{n - 2} : \frac{2}{n - 2} + \frac{c_{n - 4}}{n - 3}, \quad \frac{c_{n - 2}}{n - 1} : \frac{2}{n - 1} + \frac{c_{n - 3}}{n - 2}\right \}
-    \end{displaymath}
-    \end{center}
-
-    \subsection{A Subsection}
-    \lipsum[1]
-
-    \section{A Section}
-    \lipsum[1]
+    \chapter{Sentence structure}
     
-    \subsection{A Subsection}
-    \lipsum[1]
-    \subsection{A Subsection}
-    \lipsum[1]
+    \section{Homework}
+
+    Alan Turing was a computer science, a mathematician and a logician,
+    born in England in June 1912. Most people know him for his
+    fundamental work in breaking the Nazi's Enigma code during World War
+    II. Although these were impressive results, Turing's major interest was in
+    the basis on which math lies.  In order to formally state the notion
+    of ``computation'', he defined his ``machines'', an abstract model of
+    a modern computer. Those machines allowed him to prove that there
+    is a machine, called Universal, which is able to simulate the behavior of
+    any other machine; furthermore, Turing proved that there is a
+    problem, the most general one is the Halting problem, which any 
+    given machine cannot solve. 
+    In spite of his genius, the British government condemned him for
+    homosexual acts. Chemical treatments brought on his premature death;
+    he committed suicide at the age of 41.
+
+    \chapter{Paragraph structure}
+    
+    \section{Homework}
+
+    Nonetheless oranges and lemons are great sources of vitamin C,
+    kiwifruit is packed with more vitamins, copper and fiber;
+    moreover, kiwifruit has lots of health benefits and can be mixed in with
+    many other ingredients. While fresh citrus are available during
+    the Winter, kiwifruit is exported from California, New Zealand and
+    Italy all over the year. From the nutritional intake point of view,
+    70 grams of kiwifruit are equivalent to 45 calories,
+    providing vitamins C, K and E, dietary fiber and potassium: this
+    mixture reduces high cholesterol levels and may reduce the risk of
+    heart diseases. In particular, it could be dispensed to diabetic
+    patients to keep their blood sugar level under control. Its
+    unique flavor can be tasted as is, mixed in with tossed green salads
+    or topped with yogurt together with strawberries.  Kiwifruit
+    should be included in children diets and in adults as well;
+    however its small dimension, it is a good food for everyone.
+    
 
     \iffalse
     % bib stuff
