@@ -1,0 +1,58 @@
+
+\chapter{Language Functions}
+
+\section{Homework}
+
+\iffalse
+
+% the following helping sandbox is for thoughts...
+
+Imperative vs Functional style
+
+state-oriented computation / lambda-calculus oriented
+looping primitives / recursion
+memory pointers / referential transparency
+easy to grasp / hard to learn
+difficult to reason about / allows theoretical studies
+
+\fi
+
+We would like to show a comparison between imperative and functional programming styles and why
+the latter should deserves the same interest -- if not more -- as the
+former one.
+
+Programming is an art that allows computer scientists to express
+complex computational processes in a succinct, clear and rigorous way
+such that a computer can understand what it is been required to do to
+solve a given problem. Like artists express themselves according
+patterns, programmers express their thoughts according "coded" styles,
+in particular using either the imperative or the functional one.
+
+The former has been around for long time and provides a direct control
+of memory and CPU; in contrast, the latter one is "the new fish in
+town" mainly derived from math theories of computation and bring an
+abstract savor. Although its theoretical approach, functional style
+allows programmers to think declaratively, specifying what the problem
+is and how a solution is characterized; on the contrary, in an
+imperative setting programmers think constructively, therefore much
+more work is required to code programs that solve the same
+problem. This difference may sound weird and the functional way is
+recognized by many difficult to learn: this explains because the
+imperative style is still commonly used by most programmers. From a
+quality testing point of view, functional style allows scientists to
+prove theorems about their programs because it satisfies the
+"referential transparency" property; conversely, imperative style
+produce programs harder to analyze and their behavior cannot be
+studied unless introducing complex theoretical structures, even for
+short and simple scripts.  Another idea that sets apart those styles
+is the implementation of objects definitions and looping constructs:
+in the functional way recursion is used both for defining object and
+to express iteration. Instead, in the imperative way memory is used to
+hold objects and some primitive expressions have to be provided by the
+programming language to repeat a series of commands. This "under the
+hood" management of memory is error prone and leave the programmer
+with full access to machine internal structure; on the other hand,
+functional programs are decoupled from internal machinery because each
+instruction is performed by an interpreter which checks if the
+instruction can be carried out safely.
+
